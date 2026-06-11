@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("background_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    text-align: center;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    max-width: 380px;
+    padding: 20px 35px;
+    max-height: 440px;
+    background-color: hsla(0, 0%, 58%, 0.11);
+    border-radius: 35px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.863);
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+#display{
+    width: 250px;
+    padding: 5px 5px;
+    /* font-weight: bold; */
+    background-color: hsla(0, 0%, 0%, 0.349);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+}
+#display::placeholder{
+    color: hsl(0, 0%, 100%);
+}
+#display:hover{
+    background-color: hsla(0, 0%, 10%, 0.349);
+}
+#display:active{
+    background-color: hsla(0, 0%, 25%, 0.349);;
+}
+#submit{
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.404) ;
+    font-family: monospace;
+    background-color: hsla(177, 79%, 36%, 0.425);
+    color: white;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+#submit:hover{
+    scale: 1.1;
+    background-color: hsla(177, 79%, 56%, 0.425);;
+}
+#task{
+    width: 100%;
+    list-style: none;
+    /* padding: 12px; */
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: bold; */
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: white;
+    background-color: hsla(0, 0%, 28%, 0.582);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+li button{
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.404) ;
+    font-family: monospace;
+    background-color: hsla(39, 100%, 50%, 0.781);
+    color: white;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}

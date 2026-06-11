@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rebeccapurple;
+    padding: 10px;
+    color: aquamarine;
+}
+h2{
+    color: #ffbc03;
+}
+button{
+    padding: 10px 15px;
+    font-weight: bolder;
+    color: rgb(185, 91, 24);
+    background-color: chartreuse;
+    border: none;
+}
